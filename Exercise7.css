@@ -202,12 +202,6 @@ p {
     height: 34px;
 }
 
-h1,
-h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
 .footbar ul {
     line-height: 14px;
     font-size: 16px;
