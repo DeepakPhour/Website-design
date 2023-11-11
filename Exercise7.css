@@ -1,0 +1,226 @@
+.main-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 40px;
+    font-style: normal;
+    font-stretch: 100%;
+    text-decoration: none solid rgb(34, 34, 34);
+}
+
+.heading-2 {
+    padding: 0 24vw;
+    font-size: 20px;
+    text-align: center;
+    width: 50vw;
+    letter-spacing: 1.5px;
+}
+
+button {
+    height: 5.1vh;
+    width: 16vw;
+    border-radius: 6px;
+    margin: 20px 0 0 41vw;
+    border: none;
+    background-color: #0cbbd5;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #0dacc4;
+}
+
+h2 {
+    height: 5.5vh;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    font-style: italic;
+    margin-left: 22vw;
+}
+
+.publish-wrapper {
+    padding: 6vh 0 0 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.download-UE {
+    margin-top: 2.5vh;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.version {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 15px;
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+}
+
+.container {
+    padding: 0 0 0 23vw;
+    /* border: 1px solid #000000; */
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 180px 180px 180px;
+}
+
+.logo img {
+    height: 58px;
+    width: 180px;
+    padding-top: 11px;
+    padding-left: 69px;
+    display: flex;
+}
+
+svg{
+    padding: 2px;
+    color: #000000;
+}
+
+.footer img {
+    width: 180px;
+    padding: 25px;
+}
+
+.items {
+    /* border: 1px solid #747272; */
+    height: 140px;
+    width: 314px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(34, 34, 34);
+    background-color: #F9F9F9;
+    background-color: rgb(249, 249, 249);
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: #222222;
+    /* border: 1px solid #000; */
+}
+
+.text {
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    line-height: 14px;
+    /* border: 1px solid #000; */
+    font-size: 14px;
+    display: flex;
+    margin: 0;
+    gap: 25px;
+    padding-top: 8px;
+    letter-spacing: 0.1em;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding-right: 60px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box {
+    /* border: 1px solid #000; */
+    margin: 2px;
+    /* padding: 20px 5px 0 5px; */
+    display: grid inline-flex;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    height: 35px;
+    width: 130px;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-stretch: 100%;
+    border: none;
+    background-color: #0dacc4;
+    border-radius: 6px;
+}
+
+.button-1:hover {
+    background-color: #0da0b6;
+}
+
+.button-2 {
+    background-color: #81c780;
+}
+
+.button-2:hover {
+    background-color: rgb(152, 222, 151);
+}
+
+.empty {
+    height: 34px;
+}
+
+h1,
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.footbar ul {
+    line-height: 14px;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    padding: 0 20px 38px 0;
+    letter-spacing: 1px;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+}
